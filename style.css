@@ -1,14 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
-:root{
-    --fonte-titulo:"Suse+mono";
-    --fonte-texto:'Bitcount+prop+single+ink';
-    --cor-principal:#0077B6;
-    --cor-secundaria:#F8F9FA;
-    --cor-destaque:#48B09F;
-    --cor-texto:#212529;
+   :root{
+    --fonte-titulo:'Oswald wgth';
+    --fonte-texto: 'Fira Sans';
+    --cor-principal: rgb(13, 49, 230); 
+    --cor-secundaria:#F8F8F2; 
+    --cor-destaque:#f51111;  
+    --cor-texto: #26c905; 
 }
 body{
     background-color: var(--cor-principal);
@@ -21,7 +20,7 @@ body{
 }
 .caixa-principal{
     background-color: var(--cor-principal);
-    width: 90px;
+    width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
@@ -31,26 +30,27 @@ h1, .caixa-perguntas, .caixa-resultados{
 }
 h1{
     color: var(--cor-destaque);
-  }
-  button{
+}
+button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color 0,3s;
-  }
-  button:hover{
+    transition: background-color 0.3s;
+}
+button :hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
-  }
-  .caixa-resultados{
+}
+.caixa-resultados{
     display: none;
-  }
-  .caixa-resultados.mostrar{
+}
+.caixa-resultados.mostrar{
     display: block;
-  }
-  .caixa-alternativas{
+}
+.caixa-alternativas{
     display: flex;
+    flex-direction: column;
     gap: 10px;
-  }
+}
