@@ -5,9 +5,9 @@
     --fonte-titulo:'Oswald wgth';
     --fonte-texto: 'Fira Sans';
     --cor-principal: rgb(36, 39, 225); 
-    --cor-secundaria:#F8F8F2; 
-    --cor-destaque:#00b020;  
-    --cor-texto: #00ff51; 
+    --cor-secundaria:#ffffaf; 
+    --cor-destaque:#4bf86a;  
+    --cor-texto: #1eff00; 
 }
 body{
     background-color: var(--cor-principal);
