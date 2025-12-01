@@ -74,5 +74,6 @@ function substituiNome(){
     for (const pergunta of Perguntas){
         pergunta.enunciado = pergunta.enunciado.replace(/voce/g, nome);
     }
-    substituiNome();
 }
+    substituiNome();
+
