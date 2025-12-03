@@ -1,12 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-   :root{
+  :root{
     --fonte-titulo:'Oswald wgth';
     --fonte-texto: 'Fira Sans';
-    --cor-principal: #0099ff(139, 141, 255); 
-    --cor-secundaria:#00eeff; 
-    --cor-destaque:#5500ff;
+    --cor-principal: rgb(5, 179, 248); 
+    --cor-secundaria:#04f6d2; 
+    --cor-destaque:#FFB300 ;  
     --cor-texto: #000000; 
 }
 body{
