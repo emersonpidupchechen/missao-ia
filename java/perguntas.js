@@ -7,14 +7,14 @@ export const perguntas = [
                 afirmacao: [
                     "O acesso a tratamento é vital para a recuperação individual, mas uma abordagem de sustentabilidade social deve complementar isso com **prevenção primária** e ações que fortaleçam a rede de apoio da comunidade. O foco inicial deve ser reduzir a vulnerabilidade e o isolamento social."
                 ],
-                proxima: 1
+                proxima: 1,
             },
             {
                 texto: "Implementar um programa de **prevenção comunitária** focado na **capacitação de líderes locais** e na criação de espaços de lazer/cultura para jovens e famílias.",
                 afirmacao: [
                     "Essa iniciativa visa diretamente a **coesão social** e a capacidade de autogestão local. Ao capacitar líderes e oferecer alternativas positivas (esportes, arte, cultura), reduz-se a vulnerabilidade dos jovens, aumenta-se o diálogo e a confiança na comunidade, combatendo o ciclo de exclusão."
                 ],
-                proxima: 2
+                proxima: 2,
             }
         ]
     },
@@ -26,14 +26,14 @@ export const perguntas = [
                 afirmacao: [
                     "Doações são importantes, mas a RSC com foco em Sustentabilidade Social exige um **impacto mais direto e estrutural**. Campanhas genéricas costumam ter pouca eficácia na mudança de comportamento a longo prazo."
                 ],
-                proxima: 3
+                proxima: 3,
             },
             {
                 texto: "Desenvolver **programas de apoio ao empregado** (PAE) com foco em saúde mental e promover a **capacitação profissional** de ex-dependentes, facilitando a reintegração.",
                 afirmacao: [
                     "A reintegração ao mercado de trabalho é um dos pilares da Sustentabilidade Social e um passo crucial para **romper o ciclo de dependência e estigma**. Isso alinha o interesse da empresa (produtividade) com o bem-estar comunitário (empregabilidade e dignidade)."
                 ],
-                proxima: 4
+                proxima: 4,
             }
         ]
     },
@@ -45,14 +45,14 @@ export const perguntas = [
                 afirmacao: [
                     "A segurança pública é necessária, mas o foco em **repressão** isolada muitas vezes não resolve as **causas sociais** do problema e pode aumentar a tensão e a desconfiança entre a comunidade e as instituições, limitando a coesão social."
                 ],
-                proxima: 3
+                proxima: 5,
             },
             {
                 texto: "Incentivar a criação de **associações de bairro** e **cooperativas de economia solidária**, promovendo a geração de renda local e a participação cívica.",
                 afirmacao: [
                     "A **Economia Solidária** e a **participação cidadã** são ferramentas essenciais para a autogestão. Ao criar alternativas econômicas e um espaço seguro para o diálogo e a ação coletiva, a comunidade fortalece sua voz e **diminui a dependência do tráfico** como única fonte de renda ou poder."
                 ],
-                proxima: 4
+                proxima: 6,
             }
         ]
     },
@@ -64,14 +64,14 @@ export const perguntas = [
                 afirmacao: [
                     "Essa é a abordagem da **abstinência total**, que, embora válida para alguns, **exclui** muitos usuários ativos, indo contra o princípio da Redução de Danos, que busca acolher o indivíduo *onde ele está* para diminuir os riscos de contágio de doenças e overdose."
                 ],
-                proxima: 3
+                proxima: 7,
             },
             {
                 texto: "Disponibilizar acesso a **materiais de higiene e prevenção de doenças** (como seringas limpas e testes rápidos) e oferecer **orientação de saúde** em espaços de acolhimento de baixo limiar (sem exigir abstinência).",
                 afirmacao: [
                     "A Redução de Danos é uma estratégia de **saúde pública** que foca em diminuir os **prejuízos** associados ao uso de drogas, independentemente da abstinência. Isso previne a propagação de doenças (HIV, Hepatites) e cria uma **ponte de confiança** entre o usuário e o sistema de saúde, facilitando a busca por tratamento futuro."
                 ],
-                proxima: 4
+                proxima: 8,
             }
         ]
     },
@@ -83,15 +83,15 @@ export const perguntas = [
                 afirmacao: [
                     "Campanhas baseadas no medo e na punição tendem a ser pouco eficazes e podem até **reforçar o estigma** e o julgamento moral, distanciando os indivíduos que precisam de ajuda."
                 ],
-                proxima: 3
+                proxima: 9,
             },
             {
                 texto: "Promover **rodas de conversa intergeracionais** e **atividades artísticas/teatrais** que explorem as histórias de vida e os desafios da recuperação, com a participação de ex-usuários e familiares.",
                 afirmacao: [
                     "A **narrativa pessoal** e a **arte** são ferramentas poderosas para a **empatia** e a **quebra de estigmas**. Ao humanizar o debate e criar um espaço seguro para compartilhar experiências, a comunidade desenvolve uma compreensão mais profunda e solidária, fortalecendo a inclusão social."
                 ],
-                proxima: 4
-            }
+                proxima: 10,
+            },
         ]
-    }
+    },
 ];
